@@ -23,6 +23,7 @@ button_back = Button(root, text="<<")
 button_exit = Button(root, text="Exit Program", command=root.quit)
 button_forward = Button(root, text=">>")
 
+# button positioning
 button_back.grid(row=1,column=0)
 button_exit.grid(row=1,column=1)
 button_forward.grid(row=1,column=2)
