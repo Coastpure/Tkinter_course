@@ -3,7 +3,7 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title('Simael')
-root.iconbitmap('C:/Users/hp/PycharmProjects/Tkinter_course/Nvidia.ico')
+root.iconbitmap('C:/Users/hp/PycharmProjects/Tkinter_tutorial/Nvidia.ico')
 
 my_img1 = ImageTk.PhotoImage(Image.open("images/lena.png"))
 my_img2 = ImageTk.PhotoImage(Image.open("images/camera1.jpg"))
