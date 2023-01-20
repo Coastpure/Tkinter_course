@@ -1,3 +1,4 @@
+# add the counter that shows image x of x
 from tkinter import *
 from PIL import ImageTk, Image
 

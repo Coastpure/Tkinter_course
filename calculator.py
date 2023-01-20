@@ -2,6 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Simple Calculator")
+root.iconbitmap('C:/Users/hp/PycharmProjects/Tkinter_tutorial/Nvidia.ico')
 
 e = Entry(root, width=45, borderwidth=5)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
